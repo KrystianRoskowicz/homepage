@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+
+</head>
+
+<body class="body">
+
+    <nav><a class="navigation__link" href="#pierwsza-sekcja">Zainteresowania</a>
+        <a class="navigation__link" href="#druga-sekcja">Tabela</a>
+    </nav>
+    <header>
+        <h1 class="header__title">Krystian Rośkowicz-Pierwsza Strona</h1>
+    </header>
+
+
+
+    <main>
+
+        <h2 class="main__heading">Podstawowe informacje </h2>
+        <article class="article">
+            <p>
+                <b>Hejka nazywam się Krystian,</b> przez niecałe trzy lata pracowalem jako górnik w wyrobiskach
+                podziemnych.
+                <br>Zmieniłem prace i podjąłem próbe jako operator Maszyn CNC,
+                lecz nie czułem sie w tym dobrze.<br> Stwierdziłem że musze coś zrobić ze swoim życiem i wtedy wpadłem
+                na
+                powiadomienie o Kursiem, i po <span class="article__important">Live </span> wiedziałem że,
+                <strong>programowanie to
+                    jest to co chce robić.</strong>
+            </p>
+        </article>
+        <h3 class="main__heading">Zdjęcie</h3>
+
+        <img class="main__photo" height="250"
+            src="https://i.postimg.cc/g0HgJ422/242205286-106347811798440-5865129004136806368-n.jpg"
+            alt="Krystian Rośkowicz">
+
+
+        <h4 id="pierwsza-sekcja" class="main__heading">Zainteresowania</h4>
+
+        <article class="article">
+
+            <p>
+                Jestem osobą otwartą na świat lubie wyzwania, wiele uczą i powodują że życie nie jest nudne. Podróże
+                pozwalają mi odkrywać i zakorzeniać piękne chwile które dają mi siłę na ciężkie czasy. Pasjonuje sie
+                również
+                tworzeniem muzyki, robie to
+                od 5 lat.
+            </p>
+        </article>
+
+        <div id="druga-sekcja">
+            <table class="table">
+                <caption>Sporty</caption>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="col">Sport</th>
+                    <th class="table__Cell table__Header" scope="col">Pozycja</th>
+                    <th class="table__Cell table__Header" scope="col">Umiejętności</th>
+                </tr>
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="row">Siatkówka</th>
+                    <td class="table__Cell">Atakującu</td>
+                    <td class="table__Cell">8/10</td>
+                </tr>
+
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="row">Koszykówka</th>
+                    <td class="table__Cell">Rozgrywający</td>
+                    <td class="table__Cell">7.5/10</td>
+                </tr>
+
+                <tr class="table__Row">
+                    <th class="table__Cell table__Header" scope="row">Nożna</th>
+                    <td class="table__Cell">Stoper</td>
+                    <td class="table__Cell">9/10</td>
+
+                </tr>
+            </table>
+        </div>
+        <p>
+            <a class="youtube" title="Rodzaj muzyki którym się zajmuje" rel="noreferrer noopener" target="_blank"
+                href="https://www.youtube.com/watch?v=vnwin6SDoYI"> muzyka którą sie zajmuje (otwiera się w
+                nowej karcie)
+            </a>
+        </p>
+        <button class="button">
+            Włącz <span class="themeName">ciemny</span> motyw</button>
+    </main>
+    <footer class="footer">Chcesz stworzyć razem jakiś kawałek dzwoń smiało.
+        <p><a class="footer__link" href="tel:+48.123456789"> 535 123 441</a></p>
+    </footer>
+
+</body>
+
+</html>
