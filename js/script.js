@@ -1,8 +1,8 @@
 console.log("Witam witam i o droge nie pytam ");
 
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
+const button = document.querySelector(".button");
+const body = document.querySelector(".body");
+const themeName = document.querySelector(".themeName");
 
 button.addEventListener("click", () => {
     body.classList.toggle("dark");
